@@ -1,0 +1,28 @@
+.m-h{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  font-size: 28px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.goTop{
+  cursor: pointer;
+  transition: .3s all linear;
+}
+.goTop:hover{
+  cursor: pointer;
+  color: darksalmon;
+}
+
+@media screen and (max-width:768px){
+  .m-h{
+    font-size: 18px;
+  }
+}
