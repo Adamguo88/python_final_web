@@ -50,28 +50,6 @@ const data = [
     ],
   },
   {
-    id: 3,
-    name: "XG5A 1106302004 盧彥齊",
-    logo: "",
-    qrcode: "imgs/3/qrcode.jpg",
-    chanel: "韓國瑜珈教練",
-    type: "Line chatbot",
-    chanelIntro:
-      "這是一個能讓生活開心一點的頻道，韓總機提供梗圖網站連結及好吃早餐建議，讓你一早就能維持好心情。另外，還提供了一些韓國瑜的一些資訊，讓大家更認識這位傳奇人物。",
-    language: "Python / Django",
-    backend: "Line develop / Heroku",
-    order: [
-      "這是一個能讓生活開心一點的聊天機器人，原先的設計目的是想提供冷笑話大全和可愛動物抽卡機制，幫助不開心的你度過這難過的一天，以及小幫手服務提供當月熱門音樂排行、發票兌獎和天氣資訊，但因為無法上傳至heroku，所以只得以自動回應訊息的方式，以關鍵字來提供資訊。在頻道上，我在圖文選單上有另外加入發票以及天氣網址，只要點進去就能到對應的網站獲得所需資訊，在冷笑話的部分，只要以關鍵字「說個笑話吧」會出現今日限定的圖片點進去就能連結到冷笑話的網站。另外，還有設計好吃早餐的圖文選單，提供麥當勞、露易莎及晨間廚房早餐價格及推薦餐點網址。最後，還有提供韓國瑜的臉書和我的寵物貓影片一部，打喵就有了。",
-    ],
-    image: [
-      "imgs/3/img1.jpg",
-      "imgs/3/img2.jpg",
-      "imgs/3/img3.jpg",
-      "imgs/3/img4.jpg",
-      "imgs/3/img5.jpg",
-    ],
-  },
-  {
     id: 4,
     name: "UE4A 王其鶯 1107200052",
     logo: "imgs/4/logo.png",
@@ -129,19 +107,6 @@ const data = [
       "imgs/5/img4.jpg",
       "imgs/5/img5.jpg",
     ],
-  },
-  {
-    id: 6,
-    name: "UD4A 1107211005 朱彥誠",
-    logo: "",
-    qrcode: "imgs/6/qrcode.png",
-    chanel: "暫無",
-    type: "Line chatbot",
-    chanelIntro: "暫無",
-    language: "Python / Django",
-    backend: "Line develop / Heroku",
-    order: ["暫無"],
-    image: [],
   },
   {
     id: 7,
@@ -363,12 +328,8 @@ const data = [
     order: [
       "與官方配合的店家凡是消費，出示優惠卷可打9折，消費一次即可獲得一點，集滿10點就能獲得9折消費卷一張。 ",
     ],
-    image: [
-      "imgs/15/img1.jpg",
-      "imgs/15/img2.jpg",
-      "imgs/15/img3.jpg",
-    ],
-  }
+    image: ["imgs/15/img1.jpg", "imgs/15/img2.jpg", "imgs/15/img3.jpg"],
+  },
 ];
 
-export default data
+export default data;

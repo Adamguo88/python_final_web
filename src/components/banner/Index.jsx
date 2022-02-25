@@ -11,7 +11,7 @@ export default function Index() {
           alt=""
         />
         <div className="c-w intro-text">PYTHON進階與人文應用</div>
-        <div className="c-w intro-class">智慧人文跨域整合設計微學分學程</div>
+        <div className="c-w intro-class">110學年度第1學期 - 智慧人文跨域整合設計微學分學程</div>
         <div className="c-w intro-teacher">授課教師: 梁丁文</div>
       </div>
     </div>
